@@ -1,0 +1,191 @@
+@font-face{
+  font-family: who asks satan;
+  src: url('../Fuentes/who asks satan.ttf');
+
+}
+@font-face{
+  font-family:October Crow;
+  src: url('../Fuentes/October Crow.ttf');
+}
+@font-face{
+  font-family:Ghastly Panic;
+  src: url('../Fuentes/Ghastly Panic.ttf');
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body{
+	background: black;
+	overflow: hidden;
+}
+.todo{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.baner{
+	color: #9c0001;
+	width: 80%;
+	height: 80%;
+	text-align: center;
+	font-size:20vw;
+	font-family:  who asks satan;
+}
+.bg{
+	width: 90%;
+	height:70%;
+	background-image: url("../img/bng.jpg");
+	background-size: 100% 100%;
+	bottom: 0px;
+	display: inline-block;
+	margin: 0 auto;
+}
+.inicio{
+	color: #fff;
+	width: 80%;
+	height: 80%;
+	text-align: center;
+	font-size: 4vh;
+	font-family: October Crow;
+	letter-spacing: 5px;
+}
+.audifonos{
+	width: 40%;
+	max-width: 300px;
+	max-height: 200px;
+	height: 25%;
+	background-image: url("../img/AUDIFONOS.jpg");
+	background-size: 100% 100%;
+	margin-left: 29%;
+}
+.corazon{
+	width: 40%;
+	max-width: 300px;
+	max-height: 200px;
+	height: 25%;
+	background-image: url("../img/CORAZON.jpg");
+	background-size: 100% 100%;
+	margin-left: 29%;
+}
+
+.menu i{
+	float: right;
+	color:#9c0001;	
+	font-size: 8vw;
+	margin-top: 2%;
+	margin-right: 2%;
+}
+.menu p {
+	color:#9c0001;	
+	font-family:"Who asks Satan" ;
+	font-size: 12vw;
+	font-weight: normal;
+	left: 4%;
+	position: absolute;
+}
+
+.centrar_v {
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+    -ms-transform: translate(0%, -50%);
+    -webkit-transform: translate(0%, -50%);
+}
+.centrar_h {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    -ms-transform: translate(-50%, 0%);
+    -webkit-transform: translate(-50%, 0%);
+}
+.centrar{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+
+.contenedor {
+	width: 100%;
+	height:80vh;
+	margin-top: 15%;
+	overflow-y:auto ;
+}
+.caja{
+	padding-top:5vh;
+	width: 40%;
+	height: 20%;
+	text-align: center;
+	background: #f79256;
+	margin: 5%;
+	font-size: 8vw;
+	color:#9c0001;
+	float: left;
+	font-family: "who asks satan" ;
+	border-radius: 20px;
+}
+
+.contenedor-serie{
+	margin-top: 2vh;
+	width: 100%;
+	height: auto;
+}
+.contenedor-serie img {
+	width: 80%;
+	border-radius: 20px;
+}
+.contenedor-serie h3{
+	color:white;
+	font-size: 2.5vh;
+	padding-left: 2vh;
+	padding-right: 2vh;
+	font-family:October Crow;
+	letter-spacing: 5px;
+}
+.contenedor-serie p{
+	color:white;
+	font-size: 1.8vh;
+	padding-left: 2vh;
+	padding-right: 2vh;
+	color: rgba(255, 255, 255, 0.8);
+}
+
+.contenedor-capitulos img {
+	width: 90%;
+	border-radius: 20px;
+}
+
+.contenedor-capitulos h3{
+	font-size: 4vh;
+	color:white;
+	font-family:October Crow;
+	letter-spacing: 5px;
+}
+.contenedor-capitulos p{
+	color:white;
+	font-size: 3vh;
+	float: left;
+	padding-left: 2vh;
+	padding-right: 2vh;
+	font-family:October Crow;
+}
+
+::-webkit-scrollbar          { width:4px;}
+::-webkit-scrollbar-button       { opacity:0}
+::-webkit-scrollbar-track        { opacity:0}
+::-webkit-scrollbar-track-piece  { opacity:0}
+::-webkit-scrollbar-thumb        { background-color:#9c0001;}
+::-webkit-scrollbar-corner       { opacity:0}
+::-webkit-resizer{ opacity:0}
+
+
+.aparecer{animation-name: aparecer;animation-duration: 3s;animation-timing-function: linear;
+}@keyframes aparecer{0%{opacity: 0;}80%{opacity: 1}100%{opacity: 0}} 

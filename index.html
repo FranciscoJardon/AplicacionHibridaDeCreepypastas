@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+
+	<script src="https://kit.fontawesome.com/3aef3e59a8.js" crossorigin="anonymous"></script>
+
+
+
+	 	<script src="js/jquery.min.js" type="text/javascript"></script>
+        <script src="js/jquery-ui.min.js" type="text/javascript"></script>
+        <script src="js/transit.js"></script>
+        <script src="js/easing.js"></script>
+
+        <script type="text/javascript" src="js/jquery.touch.js"></script>
+        <script src="js/jquery.ui.touch-punch.min.js" type="text/javascript"></script>
+        <script type="text/javascript" src="js/dom-drag.js"></script>
+
+
+	<title>Creepypastas</title>
+</head>
+<body>
+	 	<div class="todo">
+	 		
+	 		<!--//////////////// inicio ////////////////////-->
+
+	 		<div id="baner" class="baner  centrar aparecer"  style="position: absolute; display: none1; opacity: 0;">
+	 			<p>CREEPYPASTAS</p>
+	 			<div class="bg"></div>
+	 			<audio id="fon"src="msc/incio.mp3" preload="auto" autoplay="true"></audio>
+
+	 		</div>
+
+	 		<div  id="inicio" class="inicio  centrar" style="position: absolute; display: none;">
+	 			<p>Usa audifonos para una mejor experiensa</p>
+	 			<div class="audifonos"></div>
+	 			<br><br>
+	 			<p>Esta aplicación no es recomendable para personas con problemas de corazon</p>
+	 			<div class="corazon"></div>
+
+	 		</div>
+
+			<!--//////////////// menu ////////////////////-->
+			<div class="menu" id="menu"  style="display: none;">
+
+				<p id="titulo-inicio"style="display:none;">Inicio</p>
+
+				<p id="titulo-crepy"style="display:none;">Creepypastas</p>
+
+				<p id="titulo-terror"style="display:none;">Historias</p>
+
+				<p id="titulo-mitos"style="display:none;">Mitos</p>
+
+				<p id="titulo-leyendas"style="display:none;">Leyendas</p>
+
+				<p id="titulo-relatos"style="display:none;">Relatos</p>
+
+				<p id="titulo-audios3d"style="display:none;">Audios 8d</p>
+				
+
+				<i id="pause"class="fas fa-volume-up" style="position: absolute;display: inline-block;margin-top: 2%;right:0px ;margin-right: 2%;"></i>
+				<i style="display: none;" id="play"class="fas fa-volume-mute" style="position: absolute;display: inline-block;margin-top: 2%;"></i>
+				<i id="btn_home" class="fas fa-home" style="position: absolute;display: inline-block;right: 12vw;margin-top: 2%;"></i>
+	
+			</div>
+
+			<!--////////////////Categorias////////////////////-->
+
+		<center>
+			<div id="categorias"class="contenedor centrar_h" style="display: none; position: absolute;">
+
+			
+				<a id="btn_1"> <div   class="caja" style="background: url(img/5.gif);background-size: 100% 100%;">Creepypastas</div></a>
+
+				<a id="btn_6"> <div   class="caja" style="background: url(img/ojos.gif);background-size: 100% 100%;">Audios 8D</div></a>
+
+
+				<a id="btn_2"> <div   class="caja" style="background: url(img/tenor.gif);background-size: 100% 100%;">Historias de Terror</div></a>
+	
+				<a id="btn_3"> <div   class="caja" style="background: url(img/1.gif);background-size: 100% 100%;">Mitos</div></a>
+
+				<a id="btn_4"> <div   class="caja" style="background: url(img/4.gif);background-size: 100% 100%;">Leyendas</div></a>
+
+				<a id="btn_5"> <div   class="caja" style="background: url(img/teno.gif);background-size: 100% 100%;">Relatos</div></a>
+
+				
+			</div>
+		</center>	
+
+		<!--////////////////Creepypastas////////////////////-->
+		<div id="creepypastas" class="contenedor centrar_h" style="display: none; position: absolute;">
+			<div id="btn_argorio" class="contenedor-serie">
+				<center><img src="img/argorio.jpg"></center>
+				<h3>Canal 94 - Argorio</h3>
+				<p>El nuevo televisor que papá me había comprado ocupaba gran parte de mi habitación...</p>
+			</div>
+			<div  id="btn_payasos" class="contenedor-serie">
+				<center><img src="img/2.jpg"></center>
+				<h3>El Payaso asesino</h3>
+				<p>Era una figura de payaso que me había regalado mi abuela...</p>
+			</div>
+			<div id="btn_dog" class="contenedor-serie">
+				<center><img src="img/dog.jpg"></center>
+				<h3>Smile dog</h3>
+				<p>Un perro terrorifico con una sonrisa muy alargada...</p>
+			</div>
+		</div>
+		<!--////////////////crepy - ARGORIO////////////////////-->
+		<div id="argorio" class="contenedor centrar_h" style="display: none; position: absolute;">
+			<div class="contenedor-capitulos">
+				<center>
+					<img src="img/argorio.jpg">
+					<h3>Canal 94 - Argorio</h3>
+					<br><br>
+					<p>Capitulo 1</p>
+					<br><br>
+					<iframe width="95%" height="111" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1089798997&color=%23ff0000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+					<br><br>
+					<p>Capitulo 2</p>
+					<br><br>
+					<iframe width="90%" height="111" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1090514236&color=%23ff0000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>				
+					<br><br>
+					<p>Capitulo 3</p>
+					<br><br>
+					<iframe width="90%" height="111" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1090514731&color=%23ff0000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+				</center>
+				
+			</div>
+			
+		</div>
+		<!--//////////////// crepy -PAYASOOS////////////////////-->
+		<div id="payasos" class="contenedor centrar_h" style="display: none; position: absolute;">
+			<div class="contenedor-capitulos">
+				<center>
+					<img src="img/2.jpg">
+					<h3>El payaso asesino</h3>
+					<br><br>
+					<p>Capitulo 1</p>
+					<br><br>
+					<iframe width="90%" height="111" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1090913431&color=%23ff0000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+					<br><br>
+				</center>
+				
+			</div>
+			
+		</div>
+		<!--//////////////// crepy- Smile dog////////////////////-->
+		<div id="dog" class="contenedor centrar_h" style="display: none; position: absolute;">
+			<div class="contenedor-capitulos">
+				<center>
+					<img src="img/dog.jpg">
+					<h3>SMILE DOG</h3>
+					<br><br>
+					<p>Capitulo 1</p>
+					<br><br>
+					<iframe width="90%" height="111" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1090917304&color=%23ff0000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+					<br><br>
+					<p>Capitulo 2</p>
+					<br><br>
+					<iframe width="90%" height="111" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1090917829&color=%23ff0000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+					<br><br>
+				</center>
+			</div>
+			
+		</div>
+		<!--////////////////AUDIOS 3D////////////////////-->
+		<div id="audios3d" class="contenedor centrar_h" style="display: none; position: absolute;">
+			<div  class="contenedor-serie">
+				<center><iframe width="90%" height="auto" src="https://www.youtube.com/embed/WKJg9LP7rrc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+				<br><br>
+				<h3>Como te hace sentir este audio</h3>
+				<br><br>
+				<center><iframe width="90%" height="auto" src="https://www.youtube.com/embed/wYpBrVMBLnE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+				<br><br>
+				<h3>Puedes escuchar esto sin abrir los ojos</h3>
+				<br><br>
+				<center><iframe width="90%" height="auto" src="https://www.youtube.com/embed/PCOG2vyfcAA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+				<br><br>
+				<h3>Te reto a escuchar esto con los ojos cerrados</h3>
+				<br><br>
+				<center><iframe width="90%" height="auto" src="https://www.youtube.com/embed/oyQsU0AU_yA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+				<br><br>
+				<h3>SONIDOS DE TERROR 8D 🎧</h3>
+				<br><br>
+			</div>
+
+			
+		</div>
+
+		<!--////////////////Historias de Terror////////////////////-->
+		<div id="historia-terror" class="contenedor centrar_h" style="display: none; position: absolute;">
+			<div id="" class="contenedor-serie">
+				<center><img src="img/2.jpg"></center>
+				<h3>Canal 94 - Argorio</h3>
+				<p>El nuevo televisor que papá me había comprado ocupaba gran parte de mi habitación...</p>
+			</div>
+			
+		</div>
+
+		<!--////////////////HISTORIA- alaa////////////////////-->
+		<div id="hiso" class="contenedor centrar_h" style="display: none; position: absolute;">
+			<div class="contenedor-capitulos">
+				<center>
+					<img src="img/dog.jpg">
+					<h3>El payaso asesino</h3>
+					<br><br>
+					<p>Capitulo 1</p>
+					<br><br>
+					<iframe width="90%" height="111" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1089798997&color=%23ff0000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+					<br><br>
+				</center>
+				
+			</div>
+			
+		</div>
+		<!--////////////////Mitos////////////////////-->
+		<div id="mitos" class="contenedor centrar_h" style="display: none; position: absolute;">
+			<div id="" class="contenedor-serie">
+				<center><img src="img/4.jpg"></center>
+				<h3>Canal 94 - Argorio</h3>
+				<p>El nuevo televisor que papá me había comprado ocupaba gran parte de mi habitación...</p>
+			</div>
+			
+		</div>
+
+		<!--////////////////leyendas////////////////////-->
+		<div id="leyendas" class="contenedor centrar_h" style="display: none; position: absolute;">
+			<div id="" class="contenedor-serie">
+				<center><img src="img/2.jpg"></center>
+				<h3>leeynad</h3>
+				<p>El nuevo televisor que papá me había comprado ocupaba gran parte de mi habitación...</p>
+			</div>
+			
+		</div>
+
+		<!--////////////////relatos////////////////////-->
+		<div id="relatos" class="contenedor centrar_h" style="display: none; position: absolute;">
+			<div id="" class="contenedor-serie">
+				<center><img src="img/1.jpg"></center>
+				<h3>leeynad</h3>
+				<p>El nuevo televisor que papá me había comprado ocupaba gran parte de mi habitación...</p>
+			</div>
+			
+		</div>
+
+		
+
+
+
+
+
+	 </div>	
+
+<script type="text/javascript">
+
+		
+
+		setTimeout(function(){
+		$("#inicio").fadeIn()
+		document.getElementById('fon').play()
+		},3000);
+		setTimeout(function(){
+		$("#inicio").fadeOut()
+		},5000);
+		setTimeout(function(){
+		$("#categorias,#titulo-inicio,#menu").fadeIn()
+		},5000);
+
+		
+		$('#btn_1').click(function(){
+		$("#categorias").fadeOut()
+		$("#titulo-inicio").fadeOut()
+		$("#creepypastas").fadeIn()
+		$("#titulo-crepy").fadeIn()
+		})
+
+		$('#btn_2').click(function(){
+		$("#categorias").fadeOut()
+		$("#titulo-inicio").fadeOut()
+		$("#historia-terror").fadeIn()
+		$("#titulo-terror").fadeIn()
+		})
+
+		$('#btn_3').click(function(){
+		$("#categorias").fadeOut ()		
+		$("#titulo-inicio").fadeOut()
+		$("#mitos").fadeIn()
+		$("#titulo-mitos").fadeIn()
+		})
+
+		$('#btn_4').click(function(){
+		$("#categorias").fadeOut ()		
+		$("#titulo-inicio").fadeOut()
+		$("#leyendas").fadeIn()
+		$("#titulo-leyendas").fadeIn()
+		})
+
+		$('#btn_5').click(function(){
+		$("#categorias").fadeOut ()		
+		$("#titulo-inicio").fadeOut()
+		$("#relatos").fadeIn()
+		$("#titulo-relatos").fadeIn()
+		})
+
+		$('#btn_6').click(function(){
+		$("#categorias").fadeOut ()		
+		$("#titulo-inicio").fadeOut()
+		$("#audios3d").fadeIn()
+		$("#titulo-audios3d").fadeIn()
+		})
+
+
+
+		$('#btn_home').click(function(){
+		$("#categorias,#titulo-inicio").fadeIn()
+		$("#titulo-crepy,#creepypastas,#argorio,#payasos,#dog,#titulo-terror,#historia-terror,#titulo-mitos,#mitos,#titulo-leyendas,#leyendas,#titulo-relatos,#relatos,#titulo-audios3d,#audios3d").fadeOut()
+		})
+
+
+		$('#titulo-crepy').click(function(){
+		$("#creepypastas").fadeIn()
+		$("#argorio,#payasos,#dog").fadeOut()
+		})
+
+		$('#btn_argorio').click(function(){
+		$("#argorio").fadeIn()
+		$("#creepypastas").fadeOut()
+		})
+
+
+		$('#btn_payasos').click(function(){
+		$("#payasos").fadeIn()
+		$("#creepypastas").fadeOut()
+		})
+
+		$('#btn_dog').click(function(){
+		$("#dog").fadeIn()
+		$("#creepypastas").fadeOut()
+		})
+
+		$('#titulo-terror').click(function(){
+		$("#historia-terror").fadeIn()
+		$("#argorio,#payasos,#dog").fadeOut()
+		})
+
+		$('#titulo-terror').click(function(){
+		$("#historia-terror").fadeIn()
+		$("#argorio,#payasos,#dog").fadeOut()
+		})
+
+
+		$('#pause').click(function(){
+		 setTimeout("document.getElementById('fon').pause()")
+		 $("#pause").fadeOut()
+		 $("#play").fadeIn()
+		})
+
+		$('#play').click(function(){
+		 setTimeout("document.getElementById('fon').play()")
+		 $("#play").fadeOut()
+		 $("#pause").fadeIn()
+		})
+</script>
+
+
+<script>
+function disabletext(e){
+return false
+}
+function reEnable(){
+return true
+}
+document.onselectstart=new Function ("return false")
+if (window.sidebar){
+document.onmousedown=disabletext
+document.onclick=reEnable
+}
+</script>
+
+
+<audio id="_1" preload="auto">
+	   		<source src="msc/sonido.mp3" type="">
+</audio>
+
+
+
+	<script type="text/javascript">
+		var _1=$("#_1")[0];
+		$(".hover")
+		.mouseenter(function(){
+			_1.play();
+		});
+		
+	</script> 
+
+
+</body>
+</html>
